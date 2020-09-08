@@ -2,7 +2,7 @@
 
 ## 되돌리기   
 
-작업취소 : esc mode에서 u
+작업취소 : esc mode에서 u   
 취소한 작업 복구 : ctrl + r   
 
 ## Visual mode   
