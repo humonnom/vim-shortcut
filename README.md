@@ -21,8 +21,8 @@
 ---------------------------------------------------   
 ## 되돌리기      
    
-작업취소 : esc mode에서 u      
-취소한 작업 복구 : ctrl + r      
+	작업취소 : esc mode에서 u      
+	취소한 작업 복구 : ctrl + r      
    
 ---------------------------------------------------   
 ## 추가, 삭제, 검색, 바꾸기   
@@ -64,18 +64,18 @@
 ---------------------------------------------------   
 ## Cursor는 놔둔채 보이는 화면만 이동하기   
    
-ctrl + y : 위로 더보기 (Screen move up)      
-ctrl + e : 아래 더보기 (Screen move down)    
+	ctrl + y : 위로 더보기 (Screen move up)      
+	ctrl + e : 아래 더보기 (Screen move down)    
    
 ---------------------------------------------------   
 ## buffers : 버퍼를 사용하면 파일간에 복사 등이 용이함   
    
-###Buffers 보기   
+	Buffers 보기   
 	esc mode에서 :buffers   
 	file 이름 옆에 적힌 번호로 이동가능함   
 	ex) esc mode에서 :b1   
    
-###Add buffer   
+	Add buffer   
 	esc mode에서e [경로]   
 	ex) e ../c_files/target.c   
    
