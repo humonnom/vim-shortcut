@@ -61,8 +61,13 @@
 			g: global하게 찾아라(전부 찾아라)   
 			c: check하면서 바꾸겠다.(y/n로 선택가능) 
 ---------------------------------------------------   
-## 비쥬얼 블록 모드(Visual block mode)	
-   
+## 비쥬얼 블록 모드(Visual block mode)로 한번에 수정하기    
+	visual block mode 진입 : ctrl + v(wimdow 외)    
+	
+	1.press ctrl and v // start select   
+	2.press shift and i // then type in any text   
+	3.press esc esc // press esc twice	  
+		출처 : https://stackoverflow.com/questions/12399572/vim-how-to-insert-in-visual-block-mode   
 ---------------------------------------------------   
 ## Cursor는 놔둔채 보이는 화면만 이동하기   
    
