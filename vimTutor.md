@@ -77,12 +77,18 @@
 ---------------------------------------------------   
 ## buffers : 버퍼를 사용하면 파일간에 복사 등이 용이함   
    
-	Buffers 보기   
-	esc mode에서 :buffers   
+	-View buffers   
+	esc mode에서 :buffers or :ls
+
+	-Move between buffer 
 	file 이름 옆에 적힌 번호로 이동가능함   
-	ex) esc mode에서 :b1   
-   
-	Add buffer   
+		ex) esc mode에서 :b1  
+	이전 버퍼로 이동
+		ex) esc mode에서 :bp (It means buffer previous)
+	다음 버퍼로 이동
+		ex) esc mode에서 :bn (It means buffer next)   
+
+	-Add a buffer   
 	esc mode에서e [경로]   
 	ex) e ../c_files/target.c   
    
