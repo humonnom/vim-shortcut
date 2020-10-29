@@ -96,4 +96,46 @@
 ---------------------------------------------------   
 ## select All : 전체선택    
 	1. gg    
-	2. shift + v + g       
+	2. shift + v + g  
+     
+---------------------------------------------------      
+## 따옴표 안의 내용 복사/삭제   
+	<Delete>   
+		-all : press `d`, `a`, `[type]`   
+			ex)   
+				example sentence -> url : "water"   
+				commend -> da"   
+				result -> url :   
+			*It menas "Delete all"    
+		-inside : press `d`, `i`, `[type]`   
+			ex)   
+				example sentence -> url : "water"   
+				commend -> di"   
+				result -> url : ""   
+			*It menas "Delete inside"    
+	<Copy>   
+		-all : press `y`, `a`, `[type]`   
+			ex)   
+				example sentence -> url : "water"   
+				commend -> ya"   
+				buffer -> "water"   
+			*It menas "Copy all" and you can paste it simply press 'p'    
+		-inside : press `y`, `i`, `[type]`   
+			ex)   
+				example sentence -> url : "water"   
+				commend -> yi"   
+				result -> url : ""   
+			*It menas "Copy inside" and you can paste it simply press 'p'    
+		   
+		commend	|	key	|	option	| 	means   
+		-------------------------------------------   
+		delete	|	d	| 	a		| delete all   
+		delete	|	d	| 	i		| delete inside   
+		copy	|	y	|	a		| copy all   
+		copy	|	y	|	i		| copy inside   
+   
+   
+---------------------------------------------------      
+## Jump between words   
+	w : next word   
+	b : back word   
