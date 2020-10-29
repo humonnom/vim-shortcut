@@ -124,7 +124,7 @@
 			ex)   
 				example sentence -> url : "water"   
 				commend -> yi"   
-				result -> url : ""   
+				buffer -> water   
 			*It menas "Copy inside" and you can paste it simply press 'p'    
 		   
 		commend	|	key	|	option	| 	means   
